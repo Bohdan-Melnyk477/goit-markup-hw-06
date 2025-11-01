@@ -25,6 +25,15 @@
           <a class="logo-name accent" href="./index.html"
             >Web <span class="studio">Studio</span></a
           >
+          <button
+            class="mobile-menu-btn"
+            type="button"
+            aria-label="Open menu button"
+          >
+            <svg class="mobile-menu-icon-btn" width="24" height="24">
+              <use href="./images/icons.svg#icon-group"></use>
+            </svg>
+          </button>
           <ul class="nav-list">
             <li>
               <a class="active current" href="./index.html">Studio</a>
@@ -508,7 +517,7 @@
 
     <!-- Modal Window -->
 
-    <div class="backdrop is-open">
+    <div class="backdrop is-open hide">
       <div class="modal">
         <button class="modal-button" type="button">
           <svg class="modal-btn-icon" width="8" height="8">
@@ -591,8 +600,72 @@
             >
           </div>
 
-          <button class="btn btn-accent" type="submit">Send</button>
+          <button class="btn" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+
+    <!-- MOBILE WINDOW -->
+
+    <div class="mobile-menu hide is-open">
+      <div class="container">
+        <ul class="mobile-menu-nav">
+          <button class="mobile-btn" type="button">
+            <svg class="modal-btn-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-no"></use>
+            </svg>
+          </button>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#">Studio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#"></a>Portfolio
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#"></a>Contacts
+          </li>
+        </ul>
+        <ul class="mobile-menu-contacts">
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="mailto:info@devstudio.com"></a
+            >info@devstudio.com
+          </li>
+        </ul>
+        <ul class="mobile-menu-icons">
+          <li class="team-icons-list">
+            <a class="link-icons" href="">
+              <svg class="icons-team" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram" />
+              </svg>
+            </a>
+          </li>
+          <li class="team-icons-list">
+            <a class="link-icons" href="">
+              <svg class="icons-team" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter" />
+              </svg>
+            </a>
+          </li>
+          <li class="team-icons-list">
+            <a class="link-icons" href="">
+              <svg class="icons-team" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook" />
+              </svg>
+            </a>
+          </li>
+          <li class="team-icons-list">
+            <a class="link-icons" href="">
+              <svg class="icons-team" width="24" height="24">
+                <use href="./images/icons.svg#icon-in" />
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>

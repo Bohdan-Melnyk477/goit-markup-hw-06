@@ -1110,7 +1110,8 @@ img {
   color: #434455;
   margin-bottom: 48px;
 }
-.mobile-menu-link {
+.mobile-menu-link:focus {
+  color: #404bbf;
 }
 .mobile-menu-contacts .mobile-menu-item:not(:last-child) {
   margin-bottom: 24px;
